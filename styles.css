@@ -1,1 +1,69 @@
 /*  your css code here. If applicable */
+body {
+      background-color: #dfe6dc;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px;
+    }
+
+    /* Main container */
+    .page {
+      width: 1100px;
+      margin: auto;
+      background-color: #eef3ea;
+      border: 2px solid #9aa59a;
+      padding: 20px;
+    }
+
+    /* Image container */
+    .imageContainer {
+      text-align: center;
+		width: 500px;
+      margin-bottom: 20px;
+    }
+
+    .imageContainer img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border: 2px solid #9aa59a;
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 2px solid #9aa59a;
+      vertical-align: top;
+      padding: 15px;
+      background-color: #f4f7f2;
+    }
+
+    /* Column widths */
+    .col-image {
+      width: 200px;
+      text-align: center;
+    }
+
+    .col-text {
+      width: 600px;
+    }
+
+    /* Images inside table */
+    .col-image img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #7d8b7d;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #4a6a4a;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #333;
+    }
